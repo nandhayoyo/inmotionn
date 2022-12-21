@@ -25,7 +25,7 @@ const ComplainReport = () => {
           <NavIcon>
             <AiIcons.AiFillSignal />
           </NavIcon>
-          <h5 style={{ marginLeft: 5 }}>Complaint Report.</h5>
+          <h5 style={{ marginLeft: 5 }}>Complaint Report</h5>
         </div>
         <div className="complaint container-fluid mb-3 mt-3 row">
           <h4>Complaint Report</h4>
