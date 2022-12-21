@@ -11,7 +11,7 @@ function ComplaintHistory() {
     getData();
   }, []);
   const getData = () => {
-    axios("http://localhost:3000/comments").then((res) => {
+    axios("http://localhost:3300/comments").then((res) => {
       console.log(res.data);
       setData(res.data);
     });
@@ -92,6 +92,7 @@ function ComplaintHistory() {
     <React.Fragment>
       <div className="pie-slice mb-5 row">
         <h5 className="mb-5 mt-">Complaint History</h5>
+
         <BootstrapTable
           keyField="id"
           data={data}
