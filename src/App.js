@@ -17,6 +17,7 @@ function App() {
           <Route
             path="/analityc/complaintreport"
             element={<ComplainReport />}
+            
           />
         </Routes>
       </Router>
