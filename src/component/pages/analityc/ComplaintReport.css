@@ -1,0 +1,33 @@
+.complaint {
+  color: black;
+  display: flex;
+  height: 100%;
+  width: 980px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 2rem;
+  top: 0;
+  margin-left: 250px;
+}
+
+.pie-slice {
+  background-color: white;
+  display: flex;
+  color: black;
+  height: 100%;
+  width: 980px;
+  margin-left: 150px;
+  margin-top: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+#complaintreport {
+  background-color: white;
+
+  margin: 0 auto;
+}
